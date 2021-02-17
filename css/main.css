@@ -26,14 +26,16 @@ main {
 }
 
 .map-wrapper {
-    width: 50%;
+    width: 100%;
     min-height: 50rem;
     position: relative;
 }
 .secondmap-wrapper {
-    width: 50%;
+    width: 100%;
     min-height: 50rem;
     position: relative;
+    display: none;
+    background-color: bisque;
 }
 
 .overlay-wrapper {
@@ -69,3 +71,4 @@ button:hover {
     background-color: royalblue;
     border-color: royalblue;
 }
+
