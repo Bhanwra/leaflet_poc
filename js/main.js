@@ -7,12 +7,19 @@ document.addEventListener("DOMContentLoaded", () => {
         zoom: 3
     });
 
+    // second mapwrapper
+    let secondmapInit = L.map('secondmapWrapper', {
+        center: [75, 150],
+        zoom: 3
+    })
+
     let svg = './assets/north-america.svg'
     let svgBounds = [
         [0, 0],
         [100, 300]
     ];
 
+    // second map svg
     L.imageOverlay(svg, svgBounds).addTo(mapInit)
 
     // _pop_ups_

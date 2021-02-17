@@ -26,7 +26,12 @@ main {
 }
 
 .map-wrapper {
-    width: 100%;
+    width: 50%;
+    min-height: 50rem;
+    position: relative;
+}
+.secondmap-wrapper {
+    width: 50%;
     min-height: 50rem;
     position: relative;
 }
@@ -37,6 +42,15 @@ main {
     top: 0;
     background-color: transparent;
     margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
+    z-index: 10000;
+}
+
+.ontario-map {
+    position: absolute;
+    background-color: transparent;
+    margin-left: 5.0rem;
+    margin-top: 1.0rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px 0px;
     z-index: 10000;
 }
