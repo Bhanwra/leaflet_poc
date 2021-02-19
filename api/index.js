@@ -1,23 +1,29 @@
 const express = require('express')
 
 const app = express()
-const port = 3000
+const port = 3100
 const mongoose = require('mongoose')
 mongoose.connect('mongodb://Bhanwra:vultr123@155.138.159.105/map-api?authSource=admin', {useNewUrlParser: true, useUnifiedTopology: true})
+    .then(success => {
+        console.log(`Connection to db successful`)
+    })
+    .catch(err => {
+        console.log(err)
+    }) 
 const Marker = mongoose.model('Marker', new mongoose.Schema({
     title: String,
-    lat: mongoose.Types.Decimal128,
-    lan: mongoose.Types.Decimal128
+    lat: Number,
+    lan: Number
 }))
 
 app.get('/', (req, res) => {
-    Marker.find((err, docs) => {
-        if ( err ) {
-            console.error(err) 
-            return res.send("ERROR")
-        }
 
-        return res.send(docs)
+    Marker.find({}, (err, docs) => {
+        if ( err ) throw err
+
+        docs.forEach(doc => {
+            console.log(doc)
+        })
     })
 
     res.send("Marker Info")
