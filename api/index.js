@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require("cors")
 
 const app = express()
 const port = 3100
@@ -16,6 +17,8 @@ const Marker = mongoose.model('Marker', new mongoose.Schema({
     lan: Number
 }))
 
+app.use(cors())
+
 app.get('/', (req, res) => {
 
     Marker.find({}, (err, docs) => {
@@ -24,17 +27,16 @@ app.get('/', (req, res) => {
         docs.forEach(doc => {
             console.log(doc)
         })
+        res.json(docs)
     })
-
-    res.send("Marker Info")
 })
 
 app.get('/test', (req, res) => {
 
     let testMarker = new Marker({
         title: "Test",
-        lat: 0.0,
-        lan: 0.1234567
+        lat: 76.85581471528549,
+        lan: 77.8271484375
     })
 
     testMarker.save((err) => {

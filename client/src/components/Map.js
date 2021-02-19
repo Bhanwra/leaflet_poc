@@ -1,18 +1,49 @@
 import { Component } from "react";
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import mapSVG from './../assets/north-america.svg'
+import mapSVG from './../assets/map.svg'
+import iconUrl from 'leaflet/dist/images/marker-icon.png'
+import iconRetinaUrl from 'leaflet/dist/images/marker-icon-2x.png'
+import shadowUrl from 'leaflet/dist/images/marker-shadow.png'
+import axios from "axios";
+
+
 
 export default class Map extends Component {
 
     componentDidMount() {
-
-        let map = L.map('mapWrapper', {
-            center: [75, 150],
-            zoom: 3
+        delete L.Icon.Default.prototype._getIconUrl;
+        L.Icon.Default.mergeOptions({
+            iconRetinaUrl: iconRetinaUrl,
+            iconUrl: iconUrl,
+            shadowUrl: shadowUrl
         });
 
-        L.imageOverlay(mapSVG, [[0, 0], [100, 300]]).addTo(map)
+        let map = L.map('mapWrapper', {
+            center: [75.76434445914344, 75.52001953125001],
+            zoom: 6
+        });
+
+        map.on("click", (e) => {
+            console.log(e)
+        })
+
+        L.imageOverlay(mapSVG, [[79.35958957209913, 50.00976562500001], [72.39570570653261, 95.09765625000001]]).addTo(map)
+
+        // let marker = L.marker([75.43097919105938, 63.39111328125001]).addTo(map);
+
+        axios({
+            method: "GET",
+            url: "http://localhost:3100/"
+        }).then(success => {
+            if ( typeof success.data == "object" ) {
+                success.data.forEach(marker => {
+                    L.marker([marker.lat, marker.lan]).addTo(map);
+                })
+            }
+        }).catch(err => {
+            console.error(err)
+        })
     }
 
     render() {
