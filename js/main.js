@@ -1,36 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    let testButtonOntario = document.querySelector("#ontarioBtn")
+    let map = document.querySelector("#map");
 
-    let mapInit = L.map('mapWrapper', {
-        center: [75, 150],
-        zoom: 3
-    });
+    map = L.map('map').setView([0,0], 1);
 
-    let svg = './assets/north-america.svg'
-    let svgBounds = [
-        [0, 0],
-        [100, 300]
-    ];
+    L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=CS1e8lnFXJdFvQu4vYTi', {
+        attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+    }).addTo(map);
 
-    L.imageOverlay(svg, svgBounds).addTo(mapInit)
+    let marker1 = L.marker([43.928822, -78.877243]).addTo(map);
 
-    // _pop_ups_
-    let popup = L.popup()
-        .setLatLng({lat: 65.5129625532949, lng: 221.66015625})
-        .setContent(
-            `<div class="card">
-                This is Ontario
-            </div>`
-        ).openOn(mapInit)
+    let marker2 = L.marker([48.8584, 2.2945]).addTo(map);
 
+    marker1.bindPopup("Durham College").openPopup();
 
-    // on_click
-    mapInit.on("click", (event) => {
-        console.log(event)
-    })
-
-    testButtonOntario.addEventListener("click", (event) => {
-        mapInit.setView({lat: 65.07213008560697, lng: 225.3515625}, 5)
-    })
+    marker2.bindPopup("Eiffel Tower").openPopup();
 })
