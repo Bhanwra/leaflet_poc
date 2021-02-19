@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // second mapwrapper
     let secondmapInit = L.map('secondmapWrapper', {
-        center: [225, 50],
-        zoom: 4
+        center: [75, 250],
+        zoom: 5
     })
     
     let svg = './assets/north-america.svg'
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     L.imageOverlay(svg, svgBounds).addTo(mapInit)
     L.imageOverlay(secondsvg, secondsvgBounds).addTo(secondmapInit)
+    
 
     // _pop_ups_
     let popup = L.popup()
