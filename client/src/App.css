@@ -1,7 +1,9 @@
 .App {
   text-align: center;
-  max-width: 1280px;
-  margin: 5rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -40,10 +42,9 @@
 }
 
 .map {
-  min-width: 1280px;
-  max-width: 100%;
-  min-height: 50rem;
   background-color: gainsboro;
   box-shadow: #0004 0 0 5px 0;
   border: solid thin silver;
+  width: 100%;
+  min-height: 90vh;
 }

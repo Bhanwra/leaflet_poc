@@ -28,9 +28,7 @@ export default class Map extends Component {
             console.log(e)
         })
 
-        L.imageOverlay(mapSVG, [[79.35958957209913, 50.00976562500001], [72.39570570653261, 95.09765625000001]]).addTo(map)
-
-        // let marker = L.marker([75.43097919105938, 63.39111328125001]).addTo(map);
+        L.imageOverlay(mapSVG, [[79.35958957209913, 50.00976562500001], [72.39570570653261, 100.09765625000001]]).addTo(map)
 
         axios({
             method: "GET",
@@ -38,7 +36,9 @@ export default class Map extends Component {
         }).then(success => {
             if ( typeof success.data == "object" ) {
                 success.data.forEach(marker => {
-                    L.marker([marker.lat, marker.lan]).addTo(map);
+                    L.marker([marker.lat, marker.lng]).addTo(map);
+
+                    let popup = L.popup().setLatLng([marker.lat + 0.2, marker.lng]).setContent("This is my marker").openOn(map)
                 })
             }
         }).catch(err => {

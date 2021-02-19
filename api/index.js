@@ -14,7 +14,7 @@ mongoose.connect('mongodb://Bhanwra:vultr123@155.138.159.105/map-api?authSource=
 const Marker = mongoose.model('Marker', new mongoose.Schema({
     title: String,
     lat: Number,
-    lan: Number
+    lng: Number
 }))
 
 app.use(cors())
@@ -35,8 +35,8 @@ app.get('/test', (req, res) => {
 
     let testMarker = new Marker({
         title: "Test",
-        lat: 76.85581471528549,
-        lan: 77.8271484375
+        lat: 77.42782352730109,
+        lng: 85.75927734375
     })
 
     testMarker.save((err) => {
