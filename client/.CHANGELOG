@@ -1,0 +1,16 @@
+# Installed React Router
+
+# Added Routes
+
+# Created Focus Route
+## This route is used to display the page when a QR is scanned
+
+# Added .env
+
+# Installed Axios
+
+# Installed TailwindCSS
+
+# Installed Craco
+
+# Initialized TailwindCSS and added files to Purge

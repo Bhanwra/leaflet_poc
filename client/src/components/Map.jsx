@@ -48,9 +48,11 @@ export default class Map extends Component {
 
     render() {
         return(
-            <div className="map" id="mapWrapper">
+            <section className="map-wrapper">
+                <div className="map m-3 w-auto rounded-2xl shadow-lg" id="mapWrapper">
 
-            </div>
+                </div>
+            </section>
         )
     }
 }

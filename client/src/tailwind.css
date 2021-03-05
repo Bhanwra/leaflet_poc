@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h2 {
+        @apply text-lg uppercase tracking-widest font-medium pt-3 pb-1;
+    }
+    .card-wrapper {
+        @apply flex overflow-y-scroll;
+    }
+}

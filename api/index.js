@@ -1,25 +1,20 @@
+require("dotenv").config()
+
 const express = require('express')
 const cors = require("cors")
 
 const app = express()
-const port = 3100
-const mongoose = require('mongoose')
-mongoose.connect('mongodb://Bhanwra:vultr123@155.138.159.105/map-api?authSource=admin', {useNewUrlParser: true, useUnifiedTopology: true})
-    .then(success => {
-        console.log(`Connection to db successful`)
-    })
-    .catch(err => {
-        console.log(err)
-    }) 
-const Marker = mongoose.model('Marker', new mongoose.Schema({
-    title: String,
-    lat: Number,
-    lng: Number
-}))
+const port = process.env.APP_PORT
+
+const focusRouter = require('./routes/focus')
+
+const mongoose = require('./include/database')
+const Marker = require('./include/models/Marker')
 
 app.use(cors())
 
 app.get('/', (req, res) => {
+    console.log("Loading Website");
 
     Marker.find({}, (err, docs) => {
         if ( err ) throw err
@@ -49,3 +44,5 @@ app.get('/test', (req, res) => {
 app.listen(port, () => {
     console.log(`App hosted @ http://localhost:${port}`)
 })
+
+app.use('/focus', focusRouter)
