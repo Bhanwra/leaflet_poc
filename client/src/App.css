@@ -14,3 +14,48 @@
 .card:first-child {
   margin-left: 0 !important;
 }
+
+.popup.card {
+  min-width: 137px;
+  margin: 0px;
+}
+
+.popup.card .icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 4px 0px;
+  width: 100%;
+}
+
+.svg-icon {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.svg-icon.has-circle {
+  /** TEMPORARY FIX FOR BAD SVG */
+  width: 33px;
+  height: 33px;
+  border: none;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  transform: translateY(-3px);
+}
+
+.svg-icon path, .svg-icon polygon, .svg-icon rect {
+  fill: #000000;
+}
+
+.svg-icon circle {
+  stroke: #000000;
+  stroke-width: 1;
+}

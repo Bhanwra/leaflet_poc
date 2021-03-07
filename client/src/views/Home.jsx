@@ -1,6 +1,7 @@
 import Card from "../components/Card"
 import Map from "../components/Map"
 
+
 import washrooms from './../assets/images/washrooms.png'
 import parks from './../assets/images/parks.png'
 import beach from './../assets/images/beach.png'
