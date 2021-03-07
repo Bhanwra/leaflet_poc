@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76165cbb.chunk.css",
+    "main.js": "/static/js/main.8374a2a9.chunk.js",
+    "main.js.map": "/static/js/main.8374a2a9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e70804a4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e70804a4.js.map",
+    "static/css/2.c501fa8b.chunk.css": "/static/css/2.c501fa8b.chunk.css",
+    "static/js/2.4bce5d43.chunk.js": "/static/js/2.4bce5d43.chunk.js",
+    "static/js/2.4bce5d43.chunk.js.map": "/static/js/2.4bce5d43.chunk.js.map",
+    "static/js/3.2f689d28.chunk.js": "/static/js/3.2f689d28.chunk.js",
+    "static/js/3.2f689d28.chunk.js.map": "/static/js/3.2f689d28.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c501fa8b.chunk.css.map": "/static/css/2.c501fa8b.chunk.css.map",
+    "static/css/main.76165cbb.chunk.css.map": "/static/css/main.76165cbb.chunk.css.map",
+    "static/js/2.4bce5d43.chunk.js.LICENSE.txt": "/static/js/2.4bce5d43.chunk.js.LICENSE.txt",
+    "static/media/beach.01d13848.png": "/static/media/beach.01d13848.png",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/lookout.144d67d3.png": "/static/media/lookout.144d67d3.png",
+    "static/media/map.609b95d0.svg": "/static/media/map.609b95d0.svg",
+    "static/media/parking.f3d6eb0a.png": "/static/media/parking.f3d6eb0a.png",
+    "static/media/parks.20eafa84.png": "/static/media/parks.20eafa84.png",
+    "static/media/picnic.aec41913.png": "/static/media/picnic.aec41913.png",
+    "static/media/restaurants.08841498.png": "/static/media/restaurants.08841498.png",
+    "static/media/washrooms.9c6fc033.png": "/static/media/washrooms.9c6fc033.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e70804a4.js",
+    "static/css/2.c501fa8b.chunk.css",
+    "static/js/2.4bce5d43.chunk.js",
+    "static/css/main.76165cbb.chunk.css",
+    "static/js/main.8374a2a9.chunk.js"
+  ]
+}

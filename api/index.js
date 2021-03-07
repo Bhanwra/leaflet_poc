@@ -1,34 +1,37 @@
+require("dotenv").config()
+
 const express = require('express')
+const cors = require("cors")
 
 const app = express()
-const port = 3000
-const mongoose = require('mongoose')
-mongoose.connect('mongodb://Bhanwra:vultr123@155.138.159.105/map-api?authSource=admin', {useNewUrlParser: true, useUnifiedTopology: true})
-const Marker = mongoose.model('Marker', new mongoose.Schema({
-    title: String,
-    lat: mongoose.Types.Decimal128,
-    lan: mongoose.Types.Decimal128
-}))
+const port = process.env.APP_PORT
+
+const focusRouter = require('./routes/focus')
+
+const mongoose = require('./include/database')
+const Marker = require('./include/models/Marker')
+
+app.use(cors())
 
 app.get('/', (req, res) => {
-    Marker.find((err, docs) => {
-        if ( err ) {
-            console.error(err) 
-            return res.send("ERROR")
-        }
+    console.log("Loading Website");
 
-        return res.send(docs)
+    Marker.find({}, (err, docs) => {
+        if ( err ) throw err
+
+        docs.forEach(doc => {
+            console.log(doc)
+        })
+        res.json(docs)
     })
-
-    res.send("Marker Info")
 })
 
 app.get('/test', (req, res) => {
 
     let testMarker = new Marker({
         title: "Test",
-        lat: 0.0,
-        lan: 0.1234567
+        lat: 77.42782352730109,
+        lng: 85.75927734375
     })
 
     testMarker.save((err) => {
@@ -41,3 +44,5 @@ app.get('/test', (req, res) => {
 app.listen(port, () => {
     console.log(`App hosted @ http://localhost:${port}`)
 })
+
+app.use('/focus', focusRouter)
