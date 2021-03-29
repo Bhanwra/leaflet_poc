@@ -4,6 +4,7 @@
 
 # Created Focus Route
 ## This route is used to display the page when a QR is scanned
+### Correction: No longer needed
 
 # Added .env
 
@@ -14,3 +15,14 @@
 # Installed Craco
 
 # Initialized TailwindCSS and added files to Purge
+
+# JSON file loads properly into cards
+
+# Images are properly populated onto the Info tab of the cards
+
+# SwiperJS Installed for fullscreen view of the images
+
+# Main route now reads parameters to pre-load data (this would be used for QR code reading)
+## Node the parameter must correspond to the "id" value in JSON file to work
+
+# Card component is now a class component to support ReactDOM ref (functional components do not support ref)

@@ -1,0 +1,427 @@
+{
+    "points": [
+
+        
+        {
+            "id": 0,
+            "title": "Renaissance Park",
+            "description": "This park includes a playground and shaded area and is only a 2 minute walk from the Waterfront Trail. There is pedestrian access to Connery Crescent and O'Hara Court.",
+            "hours": "April 1 to October 31 - 6:00 a.m. to 10:00 p.m. November 1 to March 31 - 6:00 a.m. to 6:00 p.m.",
+            "coordinates": {
+                "lat": 43.85473864649074,
+                "lng": -78.86300773011568,
+                "zoom": 8
+            },
+
+            "amenities": [
+                {
+                    "type": "Parks and Rec",
+                    "title": "Playground",
+                    "coordinates": {
+                        "lat": 43.85459261894941,
+                        "lng": -78.8632839976477,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Skateboard Park",
+                    "coordinates": {
+                        "lat": 43.859389020101766,
+                        "lng": -78.83323838784267,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "",
+                    "title": "Lakeside Seating",
+                    "coordinates": {
+                        "lat": 43.85895018222053,
+                        "lng": -78.83307939600807,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "",
+                    "title": "Lookout Parking",
+                    "coordinates": {
+                        "lat": 43.858649456705564,
+                        "lng": -78.83209122833009,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "",
+                    "title": "Lakewoods Park Lookout",
+                    "coordinates": {
+                        "lat": 43.858104355763466,
+                        "lng": -78.83168136550127,
+                        "zoom": 8
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "title": "Stonestreet Park",
+            "description": "This park offers fully accessible views of Lake Ontario via the Waterfront Trail and pedestrian access to Stone St.  There is a large, open, grassed field that is perfect for group gatherings and there is nearby access to a number of sport and recreational facilities.",
+            "hours": "April 1 to October 31 - 6:00 a.m. to 10:00 p.m. November 1 to March 31 - 6:00 a.m. to 6:00 p.m.",
+            "coordinates": {
+                "lat": 43.85806323676588,
+                "lng": -78.84430418210702,
+                "zoom": 8
+            },
+
+            "amenities": [
+                {
+                    "type": "Parks and Rec",
+                    "title": "Basketball Court",
+                    "coordinates": {
+                        "lat": 43.858638447993215,
+                        "lng": -78.84475575441247,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Playground",
+                    "coordinates": {
+                        "lat": 43.85830966525718,
+                        "lng": -78.84602712150155,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Outdoor Tennis Courts/Pickle Ball",
+                    "coordinates": {
+                        "lat": 43.85844504660334,
+                        "lng": -78.8453458404032,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Soccer/Football Field with Running Track",
+                    "coordinates": {
+                        "lat": 43.8592971347621,
+                        "lng": -78.84337613783066,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "Pumphouse Marsh Lookout",
+                    "coordinates": {
+                        "lat": 43.85909202270671,
+                        "lng": -78.84209616795933,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "South Oshawa Community Center",
+                    "coordinates": {
+                        "lat": 43.85958997370674,
+                        "lng": -78.84649382586716,
+                        "zoom": 8
+                    }
+                }
+            ]		
+        },
+        {
+            "id": 2,
+            "title": "Lakefront West Park",
+            "description": "This park offers fully accessible views of Lake Ontario via the Waterfront Trail.  The main feature of this park is the grouping of eight Class A ball diamonds designed for adult-slo-pitch league rentals, which include access to changerooms and field lighting.  There is an arena facility adjacent to the park.",
+            "hours": "April 1 to October 31: 6:00 a.m. to 10:00 p.m. November 1 to March 31: 6:00 a.m. to 6:00 p.m.",
+            "coordinates": {
+                "lat": 43.85329733780343,
+                "lng": -78.87641526230513,
+                "zoom": 8
+            },
+
+            "amenities": [
+                {
+                    "type": "",
+                    "title": "Parking",
+                    "coordinates": {
+                        "lat": 43.854615469768696,
+                        "lng": -78.87323647179107,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "",
+                    "title": "Lakeside Seating",
+                    "coordinates": {
+                        "lat": 43.85239785752959,
+                        "lng": -78.87978018688106,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Ball Diamonds West",
+                    "coordinates": {
+                        "lat": 43.85330693081965,
+                        "lng": -78.87575150895262,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Ball Diamonds East",
+                    "coordinates": {
+                        "lat": 43.85312124889659,
+                        "lng": -78.87269379063713,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "Gold Point Marsh Bridge",
+                    "coordinates": {
+                        "lat": 43.85244441578526,
+                        "lng": -78.87019823660877,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "Lake Ontario Lookout Station",
+                    "coordinates": {
+                        "lat": 43.85157280756263,
+                        "lng": -78.87361421393139,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Nature Area",
+                    "title": "Carolinian Forest",
+                    "coordinates": {
+                        "lat": 43.852059433674555,
+                        "lng": -78.87204617307161,
+                        "zoom": 8
+                    }
+                }
+            ]	
+        },
+        {
+            "id": 3,
+            "title": "Lakeview Park",
+            "description": "Oshawa's largest lakefront park is situated on 44 acres of the original Henry family farm lands. The Henry family's farmhouse is one of the Oshawa Museum's three historic homes on site.  There are numerous soccer fields and baseball diamonds available to rent.  There are also eight picnic areas availble to rent for gatherings of over 20 people.  The park is host to the city's annual Canada Day celebrations.",
+            "hours": "April 1 to October 31 - 6:00 a.m. to 10:00 p.m. November 1 to March 31 - 6:00 a.m. to 6:00 p.m.",
+            "coordinates": {
+                "lat": 43.862215967730116,
+                "lng": -78.82868324915565,
+                "zoom": 8
+            },
+
+            "amenities": [
+                {
+                    "type": "Parks and Rec",
+                    "title": "Lakeview Park Playground and Splash Pad",
+                    "coordinates": {
+                        "lat": 43.86325018996494,
+                        "lng":  -78.82745724592692,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Picnic Area",
+                    "title": "Lakeview Park Picnic Shelter",
+                    "coordinates": {
+                        "lat": 43.86232965831713,
+                        "lng":  -78.82965513582475,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Jim Lutton Legion Ball Diamond #1",
+                    "coordinates": {
+                        "lat": 43.86367756889422,
+                        "lng":  -78.829728235017,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Ted McComb Ball Diamond #3",
+                    "coordinates": {
+                        "lat": 43.863540760237115,
+                        "lng":  -78.83363211915615,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Kluane Ave. Soccer Fields",
+                    "coordinates": {
+                        "lat": 43.86111056695212,
+                        "lng":  -78.83280263548042,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Lakeview Park Ave. Soccer Fields",
+                    "coordinates": {
+                        "lat": 43.864680917785314,
+                        "lng":  -78.83092997381205,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Rental",
+                    "title": "Jubilee Pavillion Banquet and Conference Centre",
+                    "coordinates": {
+                        "lat": 43.86329084437274,
+                        "lng":  -78.82857820951858,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Eating",
+                    "title": "The Jube Pub and Patio",
+                    "coordinates": {
+                        "lat": 43.86315577922867,
+                        "lng":  -78.8282602519061,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Oshawa Community Museum and Archives",
+                    "coordinates": {
+                        "lat": 43.863991722048,
+                        "lng": -78.82753167611007,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Lakeview Park Beach",
+                    "coordinates": {
+                        "lat": 43.86478202897567,
+                        "lng": -78.82506871384294,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parks and Rec",
+                    "title": "Beach Volleyball Courts",
+                    "coordinates": {
+                        "lat": 43.86478202897567,
+                        "lng": -78.82506871384294,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "Lakeview Park Pier",
+                    "coordinates": {
+                        "lat": 43.86427142035456,
+                        "lng": -78.82225389982887,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "Nelson Mandela Point Gazebo",
+                    "coordinates": {
+                        "lat": 43.86077790430478,
+                        "lng": -78.83058086342902,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Lookout",
+                    "title": "East Gazebo",
+                    "coordinates": {
+                        "lat": 43.86363448944969,
+                        "lng": -78.82666375428849,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parking",
+                    "title": "Ball Diamond Parking",
+                    "coordinates": {
+                        "lat": 43.86360214505608,
+                        "lng": -78.83060732002745,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parking",
+                    "title": "Picnic Area Parking",
+                    "coordinates": {
+                        "lat": 43.86280926136329,
+                        "lng": -78.83017011996208,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parking",
+                    "title": "Museum and Pavillion Parking",
+                    "coordinates": {
+                        "lat": 43.863884486460484,
+                        "lng": -78.82834085340382,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parking",
+                    "title": "Simcoe Entrance Parking",
+                    "coordinates": {
+                        "lat": 43.86490941316394,
+                        "lng": -78.82878610010593,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Parking",
+                    "title": "Beach Parking",
+                    "coordinates": {
+                        "lat": 43.86498773235406,
+                        "lng": -78.82530593387733,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Washrooms",
+                    "title": "Main Washroom Building",
+                    "coordinates": {
+                        "lat": 43.86285067868624,
+                        "lng": -78.82892139965195,
+                        "zoom": 8
+                    }
+                },
+                {
+                    "type": "Washrooms",
+                    "title": "Beach Washroom Building",
+                    "coordinates": {
+                        "lat": 43.86452789586476,
+                        "lng": -78.825878186018,
+                        "zoom": 8
+                    }
+                }
+                
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Ed Broadbent Park",
+            "description": "This park has future development plans but is currently an open green space backdrop to the Larry Ladd Harbour Trail.  Ed Broadbent was Oshawa's elected member of the House Of Commons for 22 years, from 1968 to 1990.",
+            "hours": "April 1 to October 31 - 6:00 a.m. to 10:00 p.m. November 1 to March 31 - 6:00 a.m. to 6:00 p.m.",
+            "coordinates": {
+                "lat": 43.86813106013229,
+                "lng": -78.8322648431414,
+                "zoom": 8
+            }
+        }
+        
+
+    ]
+}

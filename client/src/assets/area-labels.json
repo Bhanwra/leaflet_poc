@@ -1,0 +1,68 @@
+{
+    "areas": [{
+            "title": "Lakefront West Park",
+            "lat": 76.31806416237713,
+            "lng": 62.43770599365235
+        },
+        {
+            "title": "Renaissance Park",
+            "lat": 76.37132519638341,
+            "lng": 64.45404052734376
+        },
+        {
+            "title": "Gold Point Marsh",
+            "lat": 75.9842000057889,
+            "lng": 62.46826171875001
+        },
+        {
+            "title": "Stone Street Park",
+            "lat": 76.73661692699112,
+            "lng": 70.92773437500001
+        },
+        {
+            "title": "South Oshawa Community Centre",
+            "lat": 76.91315278108821,
+            "lng": 70.29602050781251
+        },
+        {
+            "title": "Pumphouse Marsh Wildlife Reserve",
+            "lat": 76.88202134228776,
+            "lng": 72.52075195312501
+        },
+        {
+            "title": "Lakewoods Park",
+            "lat": 76.8201711893863,
+            "lng": 75.40056467056276
+        },
+        {
+            "title": "Lakeview Park",
+            "lat": 77.35588018204265,
+            "lng": 75.83862304687501
+        },
+        {
+            "title": "Ed Broadbent Waterfront Park",
+            "lat": 77.87477597088098,
+            "lng": 75.26458740234376
+        },
+        {
+            "title": "Hamilton-Oshawa Port Authority",
+            "lat": 77.52193496067268,
+            "lng": 77.80517578125
+        },
+        {
+            "title": "Second Marsh",
+            "lat": 78.31602379752474,
+            "lng": 82.55860805511476
+        },
+        {
+            "title": "McLaughin Bay",
+            "lat": 78.04306602802086,
+            "lng": 87.92530059814455
+        },
+        {
+            "title": "Larry Ladd Habour Trail",
+            "lat": 77.80651121173845,
+            "lng": 75.99243164062501
+        }
+    ]
+}

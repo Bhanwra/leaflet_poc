@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&display=swap');
+
+* {
+  font-family: 'Asap', sans-serif;
+}
+
 .map {
-  background-color: gainsboro;
-  border: solid thin silver;
+  background-color: #92d6e3 !important;
   width: 100%;
   min-height: 50vh;
 }
@@ -13,4 +18,220 @@
 
 .card:first-child {
   margin-left: 0 !important;
+}
+
+header {
+  position: relative;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, #000, #0000, #0000, #0000);
+  z-index: 1;
+}
+
+header * {
+  z-index: 2;
+  position: relative;
+}
+
+h2,
+h3 {
+  letter-spacing: normal !important;
+}
+
+.ribbon {
+  background-color: #87B970;
+}
+
+.dropdown {
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 250ms;
+  visibility: visible;
+  top: 0;
+}
+
+.dropdown-hidden {
+  top: -10% !important;
+  visibility: hidden;
+}
+
+.component {
+  /* transition: linear 250ms; */
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 250ms;
+  visibility: visible;
+  bottom: 0;
+}
+
+.component-hidden {
+  bottom: -10% !important;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .component {
+    top: 0%;
+  }
+
+  .component-hidden {
+    top: -10% !important;
+  }
+}
+
+.component-overlay .map-wrapper {
+  position: absolute;
+}
+
+#map #content,
+.content,
+.content * {
+  z-index: 10000;
+}
+
+.gallery-thumbnail {
+  min-height: 8em;
+}
+
+.gallery-thumbnail::before {
+  content: "";
+  display: block;
+}
+
+.card:first-child {
+  margin-left: 0 !important;
+}
+
+.popup.card {
+  min-width: 137px;
+  margin: 0px;
+}
+
+.popup.card .icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 4px 0px;
+  width: 100%;
+}
+
+.svg-icon {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.svg-icon.has-circle {
+  /** TEMPORARY FIX FOR BAD SVG */
+  width: 33px;
+  height: 33px;
+  border: none;
+  border-radius: 50%;
+  padding: 1px;
+  margin: 0px;
+  cursor: pointer;
+  vertical-align: middle;
+  transform: translateY(-3px);
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #000000;
+}
+
+.svg-icon circle {
+  stroke: #000000;
+  stroke-width: 1;
+}
+
+/* hiding scrollbar */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* popup */
+
+.popup-theme {
+  animation: popup infinite;
+  margin: 0 !important;
+}
+
+.leaflet-tooltip.labels {
+  box-shadow: none;
+  background-color: transparent;
+  white-space: pre-wrap;
+  width: 110px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  line-height: 1.2;
+  text-shadow: -1.5px 0 1px #fff, 1.5px 0 1px #fff, 0 -1.5px 1px #fff, 0 1.5px 1px #fff;
+}
+
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  border: none !important;
+  border-radius: 0.5rem !important;
+  overflow: hidden;
+}
+
+.leaflet-touch .leaflet-bar a {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem !important;
+  line-height: 26px !important;
+  font-weight: normal;
+}
+
+.leaflet-container .popup-theme .leaflet-popup-content {
+  margin: 0.5rem !important;
+}
+
+.leaflet-container .popup-theme .leaflet-popup-content p {
+  margin: 0 !important;
+}
+
+.leaflet-container .popup-v2 .leaflet-popup-content-wrapper {
+  background-color: transparent;
+  background-image: url('./assets/icons/standard_marker.svg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: none;
+  max-width: 3rem;
+  width: 3rem;
+  height: 4rem;
+  max-height: 4rem;
+}
+
+.leaflet-container .popup-v2 .leaflet-popup-content-wrapper .leaflet-popup-content {
+  margin: 0;
+}
+
+.leaflet-container .popup-v2 .leaflet-popup-tip-container,
+.leaflet-container .popup-theme .leaflet-popup-tip-container {
+  display: none;
+}
+
+.popup-theme .leaflet-popup-content-wrapper,
+.popup-theme .leaflet-popup-tip {
+  background-image: none !important;
+  color: #000 !important;
+  background-color: #fff;
+  /* border: 2px solid #EA8B3E; */
 }

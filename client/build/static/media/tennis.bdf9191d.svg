@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 455.36 576.25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#shadow-filter);
+      }
+
+      .cls-3 {
+        fill: #ff7c1a;
+      }
+    </style>
+    <filter id="shadow-filter" x="-50%" y="-50%" width="200%" height="200%" name="shadow-filter">
+      <feOffset result="shadowOffsetOuter1" dx="10" dy="10" in="SourceAlpha"/>
+      <feGaussianBlur result="shadowBlurOuter1" stdDeviation="14" in="shadowOffsetOuter1"/>
+      <feColorMatrix result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" in="shadowBlurOuter1"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g id="Sports_Markers_copy" data-name="Sports Markers copy">
+    <g class="cls-2">
+      <path class="cls-3" d="M251.39,554.5a7,7,0,0,1-4.61-1.73,693.22,693.22,0,0,1-85-92.86c-56.66-74.37-85.39-143.77-85.39-206.27a175,175,0,1,1,350,0c0,62.51-28.73,131.91-85.4,206.28a693.34,693.34,0,0,1-85,92.88A7,7,0,0,1,251.39,554.5Z" transform="translate(-24.5 -27.42)"/>
+    </g>
+    <path class="cls-1" d="M251.64,397.5c-80.36,0-145.74-65.38-145.74-145.74,0-3.2.22-6.32.43-9.34l.08-1.09c5.38-75.6,68.94-135,144.7-135.3l.53,0c80.36,0,145.74,65.38,145.74,145.74S332,397.5,251.64,397.5Zm-130-152.15c-.15,2.11-.27,4.27-.27,6.4A130.31,130.31,0,0,0,380.19,273c-46.85,3-84.27,30.15-100.39,73a7.72,7.72,0,0,1-14.45-5.44c18.38-48.83,62.9-80.54,116.46-83.11.09-2,.14-3.89.14-5.68,0-71.77-58.38-130.21-130.14-130.31l-.67,0a130.73,130.73,0,0,0-127.7,108.24c42.95-3.94,76.74-27.4,95.32-66.27a7.75,7.75,0,0,1,7-4.39,7.7,7.7,0,0,1,7,11C211.15,215.16,171.74,241.84,121.6,245.35Z" transform="translate(-24.5 -27.42)"/>
+  </g>
+</svg>
