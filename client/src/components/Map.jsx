@@ -28,34 +28,34 @@ export default class Map extends Component {
 
         this.mapObject = L.map('mapWrapper', {
             center: new LatLng(
-                76.65549856702918,
-                64.68750000000001
+                308,
+                500
             ),
-            zoom: 6,
+            zoom: 1.5,
             maxBounds: new LatLngBounds({
-                lat: 73.46578809124719,
-                lng: 90.52734375
+                lat: 611,
+                lng: 995
             }, {
-                lat: 79.16311751382845,
-                lng: 57.31072693809659
+                lat: 5,
+                lng: 5
             }),
-            minZoom: 7,
-            maxZoom: 11,
-            inertia: false,
+            minZoom: 1,
+            maxZoom: 3,
+            zoomDelta: 0.5,
+            zoomSnap: 0.5,
             wheelPxPerZoomLevel: 200,
-            maxBoundsViscosity: 0.9,
-            zoomAnimation: false
+            maxBoundsViscosity: 0.95,
+            crs: L.CRS.Simple
         });
 
         // helper event to locate coordinates and other metadata
         this.mapObject.on("click", (e) => {
-            console.log(e)
+            console.log(`"lat": ${e.latlng.lat},\n"lng": ${e.latlng.lng}`)
         })
 
-
         L.imageOverlay(mapPNG, [
-            [ 79.23753354301057, 52.16308593750001 ], 
-            [ 74.28742556085457, 97.82226562500001 ]
+            [ 0, 0 ], 
+            [ 616, 1000 ]
         ]).addTo(this.mapObject)
         
         // storing map into the parent's state

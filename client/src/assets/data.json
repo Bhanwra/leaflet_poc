@@ -1,14 +1,13 @@
 {
-    "points": [
-        {
+    "points": [{
             "id": 0,
             "title": "Oshawa Trail Entrance",
             "description": "The Waterfront Trail in Oshawa begins here!",
             "hours": "",
             "coordinates": {
-                "lat": 76.34702150839023,
-                "lng": 57.88695067752672,
-                "zoom": 9
+                "lat": 229.625,
+                "lng": 18.375,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -18,63 +17,62 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.02471928254624,
-                "lng": 60.49379259850381,
-                "zoom": 9
+                "lat": 191.5,
+                "lng": 92.25,
+                "zoom": 3
             },
-            "amenities": [
-                {
+            "amenities": [{
                     "type": "Seating Areas",
                     "title": "Lakeside Seating",
                     "coordinates": {
-                        "lat": 76.14131128214585,
-                        "lng": 58.62266063690186,
-                        "zoom": 8
+                        "lat": 202.5,
+                        "lng": 41.25,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Ball Diamonds West",
                     "coordinates": {
-                        "lat": 76.22674137637667,
-                        "lng": 60.093262195587165,
-                        "zoom": 8
+                        "lat": 214.64453125,
+                        "lng": 81.32451171875,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Ball Diamonds East",
                     "coordinates": {
-                        "lat": 76.20339335787128,
-                        "lng": 61.15830302238465,
-                        "zoom": 8
+                        "lat": 211.51953125,
+                        "lng": 111.44951171875,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Gold Point Marsh Bridge",
                     "coordinates": {
-                        "lat": 76.12971647226621,
-                        "lng": 62.03078269958497,
-                        "zoom": 8
+                        "lat": 203.32666015625,
+                        "lng": 135.5537109375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Lake Ontario Lookout Station",
                     "coordinates": {
-                        "lat": 76.03893187064064,
-                        "lng": 60.80650448799134,
-                        "zoom": 8
+                        "lat": 191.45166015625,
+                        "lng": 104.1787109375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Seating Areas",
                     "title": "Carolinian Forest",
                     "coordinates": {
-                        "lat": 76.06428143175889,
-                        "lng": 61.35937213897706,
-                        "zoom": 8
+                        "lat": 197.70166015625,
+                        "lng": 119.0537109375,
+                        "zoom": 3
                     }
                 }
             ]
@@ -85,17 +83,17 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.2380192914447,
-                "lng": 64.54785005194516,
-                "zoom": 9
+                "lat": 216.5,
+                "lng": 206.75,
+                "zoom": 3
             },
             "amenities": [{
                 "type": "Playground",
                 "title": "Playground",
                 "coordinates": {
-                    "lat": 43.85459261894941,
-                    "lng": -78.8632839976477,
-                    "zoom": 8
+                    "lat": 231.125,
+                    "lng": 202.875,
+                    "zoom": 3
                 }
             }]
         },
@@ -105,63 +103,62 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.57861692699112,
-                "lng": 70.58773437500001,
-                "zoom": 9
+                "lat": 257.25,
+                "lng": 376.125,
+                "zoom": 3
             },
-            "amenities": [
-                {
+            "amenities": [{
                     "type": "Sports Fields",
                     "title": "Basketball Court",
                     "coordinates": {
-                        "lat": 76.81759992213517,
-                        "lng": 70.90086936950685,
-                        "zoom": 8
+                        "lat": 286,
+                        "lng": 384.625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Playground",
                     "title": "Playground",
                     "coordinates": {
-                        "lat": 76.7921231995664,
-                        "lng": 70.4596104472875,
-                        "zoom": 8
+                        "lat": 282.875,
+                        "lng": 372.875,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Outdoor Tennis Courts/Pickle Ball",
                     "coordinates": {
-                        "lat": 76.8071760159394,
-                        "lng": 70.695816501975,
-                        "zoom": 8
+                        "lat": 284.375,
+                        "lng": 379.125,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Soccer/Football Field with Running Track",
                     "coordinates": {
-                        "lat": 76.8971396553447,
-                        "lng": 71.3604893535375,
-                        "zoom": 8
+                        "lat": 296.25,
+                        "lng": 398.875,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Pumphouse Marsh Lookout",
                     "coordinates": {
-                        "lat": 76.8732915086433,
-                        "lng": 72.44384765625,
-                        "zoom": 8
+                        "lat": 293.125,
+                        "lng": 410.75,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Misc",
                     "title": "South Oshawa Community Center",
                     "coordinates": {
-                        "lat": 77.07956597510096,
-                        "lng": 70.86181640625,
-                        "zoom": 8
+                        "lat": 298.375,
+                        "lng": 367.375,
+                        "zoom": 3
                     }
                 }
             ]
@@ -172,9 +169,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.86701692699112,
-                "lng": 70.38603437500001,
-                "zoom": 9
+                "lat": 292.25,
+                "lng": 370.875,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -184,9 +181,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.90701692699112,
-                "lng": 71.80603437500001,
-                "zoom": 9
+                "lat": 299.125,
+                "lng": 410.125,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -196,74 +193,62 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 76.858913752025,
-                "lng": 74.9999438476562,
-                "zoom": 9
+                "lat": 292,
+                "lng": 500.25,
+                "zoom": 3
             },
-            "amenities": [
-                {
-                    "type": "volleyball",
+            "amenities": [{
+                    "type": "Sports Fields",
                     "title": "Basketball Court",
                     "coordinates": {
-                        "lat": 76.92596363375736,
-                        "lng": 74.72189068794252,
-                        "zoom": 10
+                        "lat": 300.375,
+                        "lng": 489.75,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Playground",
                     "title": "Playground",
                     "coordinates": {
-                        "lat": 76.8994639011403,
-                        "lng": 74.87457275390626,
-                        "zoom": 8
+                        "lat": 296.5,
+                        "lng": 493,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Skateboard Park",
                     "coordinates": {
-                        "lat": 76.8994639011403,
-                        "lng": 74.87457275390626,
-                        "zoom": 8
+                        "lat": 297.25,
+                        "lng": 497,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Seating Areas",
                     "title": "Lakeside Seating",
                     "coordinates": {
-                        "lat": 76.86393178176685,
-                        "lng": 74.97619628906251,
-                        "zoom": 8
+                        "lat": 292.25,
+                        "lng": 500,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Lookout Parking",
                     "coordinates": {
-                        "lat": 76.82454928314296,
-                        "lng": 75.31677246093751,
-                        "zoom": 8
+                        "lat": 287.125,
+                        "lng": 509.75,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Lakewoods Park Lookout",
                     "coordinates": {
-                        "lat": 76.76242805710227,
-                        "lng": 75.42114257812501,
-                        "zoom": 8
-                    }
-                }
-            ],
-            "explore": [
-                {
-                    "type": "skate",
-                    "title": "Explore Marker",
-                    "coordinates": {
-                        "lat": 76.76242805710227,
-                        "lng": 75.42114257812501,
-                        "zoom": 8
+                        "lat": 280.25,
+                        "lng": 512.75,
+                        "zoom": 3
                     }
                 }
             ]
@@ -274,162 +259,152 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 77.21699091765018,
-                "lng": 76.5999438576562,
-                "zoom": 9
+                "lat": 337.625,
+                "lng": 545.125,
+                "zoom": 3
             },
-            "amenities": [
-                {
+            "amenities": [{
                     "type": "Playground",
                     "title": "Lakeview Park Playground and Splash Pad",
                     "coordinates": {
-                        "lat": 77.3213440183962,
-                        "lng": 76.9014859199524,
-                        "zoom": 8
+                        "lat": 348.25,
+                        "lng": 553.625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Seating Areas",
                     "title": "Lakeview Park Picnic Shelter",
                     "coordinates": {
-                        "lat": 77.2270682017343,
-                        "lng": 76.12890243530275,
-                        "zoom": 8
+                        "lat": 340.875,
+                        "lng": 539.25,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Jim Lutton Legion Ball Diamond #1",
                     "coordinates": {
-                        "lat": 77.37630514958651,
-                        "lng": 76.14074707031251,
-                        "zoom": 8
+                        "lat": 357.5,
+                        "lng": 533.125,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Ted McComb Ball Diamond #3",
                     "coordinates": {
-                        "lat": 77.33542270625625,
-                        "lng": 74.70703125000001,
-                        "zoom": 8
+                        "lat": 350.75,
+                        "lng": 491.625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Kluane Ave. Soccer Fields",
                     "coordinates": {
-                        "lat": 77.11558225448707,
-                        "lng": 74.95422363281251,
-                        "zoom": 8
+                        "lat": 322.875,
+                        "lng": 501.5,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Lakeview Park Ave. Soccer Fields",
                     "coordinates": {
-                        "lat": 77.46722053896585,
-                        "lng": 75.63537597656251,
-                        "zoom": 8
+                        "lat": 368,
+                        "lng": 518.5,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Rental",
                     "title": "Jubilee Pavillion Banquet and Conference Centre",
                     "coordinates": {
-                        "lat": 77.31931873580899,
-                        "lng": 76.49297475814821,
-                        "zoom": 8
+                        "lat": 349.125,
+                        "lng": 544.625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Food Location",
                     "title": "The Jube Pub and Patio",
                     "coordinates": {
-                        "lat": 77.31449445597491,
-                        "lng": 76.7017149925232,
-                        "zoom": 8
+                        "lat": 347.375,
+                        "lng": 547.875,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Museum",
                     "title": "Oshawa Community Museum and Archives",
                     "coordinates": {
-                        "lat": 77.39685684677058,
-                        "lng": 76.86642408370972,
-                        "zoom": 8
-                    }
-                },
-                {
-                    "type": "Lookout",
-                    "title": "Lakeview Park Beach",
-                    "coordinates": {
-                        "lat": 77.47839069699992,
-                        "lng": 77.80489683151247,
-                        "zoom": 8
+                        "lat": 359.69140625,
+                        "lng": 551.4833984375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Sports Fields",
                     "title": "Beach Volleyball Courts",
                     "coordinates": {
-                        "lat": 77.47481731271438,
-                        "lng": 77.78292417526247,
-                        "zoom": 8
+                        "lat": 370.3681640625,
+                        "lng": 580.5244140625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Lakeview Park Pier",
                     "coordinates": {
-                        "lat": 77.44319947677188,
-                        "lng": 78.70292186737062,
-                        "zoom": 8
+                        "lat": 363.9931640625,
+                        "lng": 605.1494140625,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "Nelson Mandela Point Gazebo",
                     "coordinates": {
-                        "lat": 77.0502710660495,
-                        "lng": 75.85036039352418,
-                        "zoom": 8
+                        "lat": 315.31005859375,
+                        "lng": 522.30615234375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Lookout",
                     "title": "East Gazebo",
                     "coordinates": {
-                        "lat": 77.35948694887146,
-                        "lng": 77.22839355468751,
-                        "zoom": 8
+                        "lat": 348.31640625,
+                        "lng": 557.3583984375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Seating Areas",
                     "title": "Picnic Area Parking",
                     "coordinates": {
-                        "lat": 77.27264458480923,
-                        "lng": 75.9814453125,
-                        "zoom": 8
+                        "lat": 344.44140625,
+                        "lng": 528.9833984375,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Washrooms",
                     "title": "Main Washroom Building",
                     "coordinates": {
-                        "lat": 77.28353188908653,
-                        "lng": 76.38793945312501,
-                        "zoom": 8
+                        "lat": 346.5,
+                        "lng": 542.25,
+                        "zoom": 3
                     }
                 },
                 {
                     "type": "Washrooms",
                     "title": "Beach Washroom Building",
                     "coordinates": {
-                        "lat": 77.45648796281547,
-                        "lng": 77.508544921875,
-                        "zoom": 8
+                        "lat": 370.5,
+                        "lng": 576.875,
+                        "zoom": 3
                     }
                 }
             ]
@@ -440,9 +415,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 77.50699091765018,
-                "lng": 77.9999438576562,
-                "zoom": 9
+                "lat": 374.5,
+                "lng": 584.375,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -452,9 +427,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 77.59452019720803,
-                "lng": 73.2260741852224,
-                "zoom": 9
+                "lat": 387,
+                "lng": 451.25,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -464,9 +439,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 79.02890020295615,
-                "lng": 78.70825242251159,
-                "zoom": 9
+                "lat": 586.125,
+                "lng": 604.5,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -476,9 +451,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 77.5516883557874,
-                "lng": 78.33251953125001,
-                "zoom": 9
+                "lat": 379.625,
+                "lng": 593.5,
+                "zoom": 3
             },
             "amenities": false
         },
@@ -488,9 +463,9 @@
             "description": "",
             "hours": "",
             "coordinates": {
-                "lat": 0,
-                "lng": 0,
-                "zoom": 9
+                "lat": 541.411669921875,
+                "lng": 798.63125,
+                "zoom": 3
             },
             "amenities": false
         }

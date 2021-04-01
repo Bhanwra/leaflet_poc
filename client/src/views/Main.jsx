@@ -37,7 +37,7 @@ export default class Main extends Component {
             },
             pointOfInterestMenu: false, // true = open, false = close
             mapObject: false,
-            preload: ( props.preload ) ? true : false
+            preload: false
         }
 
         this.cardRef = createRef()
@@ -59,6 +59,19 @@ export default class Main extends Component {
                     iconSize: [45.5, 57.6],
                     iconAnchor: [22.75, 57.6]
                 })
+            }
+        }
+
+        if ( this.props.preload ) {
+            try {
+                let checkMapLoaded = setInterval(() => {
+                    if ( this.state.mapObject ) {
+                        clearInterval(checkMapLoaded)
+                        this.focusOn(this.props.points[this.props.match.params.id])
+                    }
+                }, 100)
+            } catch ( ex ) {
+                console.warn(ex)
             }
         }
     }
@@ -242,6 +255,7 @@ export default class Main extends Component {
     render() {
 
         if ( this.state.preload ) {
+            console.log(`Preloaded`, this.props)
             if ( this.state.isPointOfInterestSelected ) {
                 console.log(this.state)
             }
@@ -316,7 +330,7 @@ export default class Main extends Component {
 
                             this.showOnMap(to.coordinates.lat, to.coordinates.lng, to.coordinates.zoom, null,
                                     `<span class="block">${to.title}</span>
-                                    <small class="mb-3 block"><span class="bg-theme-orange-600 p-1 rounded-xl inline-block">1.9km</span> from ${from.title}</small>
+                                    <small class="mb-3 block"><span class="bg-theme-colors-purple text-white p-1 px-1.5 rounded-xl inline-block">1.9km</span> from ${from.title}</small>
                                     <button class="bg-theme-orange-500 uppercase text-white p-2 rounded-xl w-full block" onclick="${this.focusOn(to)}">Explore</button>`
                                 )
                         }

@@ -80,10 +80,9 @@ function App() {
               <Main points={points} />
             </Route>
             <Route path="/:id?" render={(props) => <Main {...props} points={points} preload={true} /> } />
-            <Route path="/focus/:id?" render={(props) => ( <Focus {...props} setHeaderTitle={setHeaderTitle} /> )} />
-            <Route path="/input">
+            {/* <Route path="/input">
               <MapInput />
-            </Route>
+            </Route> */}
             <Route path="*" component={NotFound} />
           </Switch>
 
