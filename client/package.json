@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://bhanwra.github.io/leaflet_poc/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^6.1.1",
