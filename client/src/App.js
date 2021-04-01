@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 import './App.css';
 // temp vars
 import bckGnd from './assets/images/bg.jpg';
@@ -72,21 +72,21 @@ function App() {
   return (
     <>
       {loading === false ? (
-        <BrowserRouter>
+        <HashRouter>
           {/* <Header title={headerTitle} background={headerBackground} /> */}
 
           <Switch>
             <Route exact path="/">
               <Main points={points} />
             </Route>
-            <Route path="/:id?" render={(props) => <Main {...props} points={points} preload={true} /> } />
+            <Route path="/:id" render={(props) => <Main {...props} points={points} preload={true} /> } />
             {/* <Route path="/input">
               <MapInput />
             </Route> */}
             <Route path="*" component={NotFound} />
           </Switch>
 
-        </BrowserRouter>
+        </HashRouter>
       ) : (
         <LoadingScreen />
       )}
