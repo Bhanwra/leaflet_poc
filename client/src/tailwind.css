@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    h2 {
+        @apply text-lg uppercase tracking-widest font-medium;
+    }
+    .card-wrapper {
+        @apply flex overflow-y-scroll;
+    }
+
+    .tab {
+        @apply bg-transparent py-2 px-3 text-white rounded-md uppercase tracking-wider font-medium hover:bg-white hover:text-theme-grey-900 transition-all cursor-pointer text-sm w-full mx-3 text-center;
+    }
+
+    .tab.active {
+        @apply bg-white text-theme-grey-900 shadow-md;
+    }
+
+    .popup-theme .leaflet-popup-content-wrapper,
+    .popup-theme .leaflet-popup-tip {
+        @apply bg-gradient-to-tr from-theme-grey-500 to-theme-grey-800 text-white;
+    }
+}

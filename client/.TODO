@@ -1,0 +1,6 @@
+# When a QR is scanned; data is loaded but the map is not centered to the Point of Interest
+# No Option to show distance between one POI to another
+# Map has no animation whatsoever (did this fix the lag?)
+# Color Scheme created but not yet implemented (waiting on design team for a final mock)
+# Icons not installed for various kinds of amenities
+# JSON file lacks major data

@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c62e9f5a.chunk.css",
+    "main.js": "/static/js/main.ad03fab0.chunk.js",
+    "main.js.map": "/static/js/main.ad03fab0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.900667a2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.900667a2.js.map",
+    "static/css/2.c501fa8b.chunk.css": "/static/css/2.c501fa8b.chunk.css",
+    "static/js/2.168e1f57.chunk.js": "/static/js/2.168e1f57.chunk.js",
+    "static/js/2.168e1f57.chunk.js.map": "/static/js/2.168e1f57.chunk.js.map",
+    "static/js/3.28e192d3.chunk.js": "/static/js/3.28e192d3.chunk.js",
+    "static/js/3.28e192d3.chunk.js.map": "/static/js/3.28e192d3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.c501fa8b.chunk.css.map": "/static/css/2.c501fa8b.chunk.css.map",
+    "static/css/main.c62e9f5a.chunk.css.map": "/static/css/main.c62e9f5a.chunk.css.map",
+    "static/js/2.168e1f57.chunk.js.LICENSE.txt": "/static/js/2.168e1f57.chunk.js.LICENSE.txt",
+    "static/media/arrow-right.ff36b00e.svg": "/static/media/arrow-right.ff36b00e.svg",
+    "static/media/beach.01d13848.png": "/static/media/beach.01d13848.png",
+    "static/media/bg.497d88d4.jpg": "/static/media/bg.497d88d4.jpg",
+    "static/media/loading-animation.0d2b7347.svg": "/static/media/loading-animation.0d2b7347.svg",
+    "static/media/lookout.144d67d3.png": "/static/media/lookout.144d67d3.png",
+    "static/media/map.75912738.svg": "/static/media/map.75912738.svg",
+    "static/media/parking.f3d6eb0a.png": "/static/media/parking.f3d6eb0a.png",
+    "static/media/parks.20eafa84.png": "/static/media/parks.20eafa84.png",
+    "static/media/picnic.aec41913.png": "/static/media/picnic.aec41913.png",
+    "static/media/playgroundAm.6915ae7c.svg": "/static/media/playgroundAm.6915ae7c.svg",
+    "static/media/restaurants.08841498.png": "/static/media/restaurants.08841498.png",
+    "static/media/washroomAm.11873762.svg": "/static/media/washroomAm.11873762.svg",
+    "static/media/washrooms.9c6fc033.png": "/static/media/washrooms.9c6fc033.png",
+    "static/media/waterfront-logo.81035da2.png": "/static/media/waterfront-logo.81035da2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.900667a2.js",
+    "static/css/2.c501fa8b.chunk.css",
+    "static/js/2.168e1f57.chunk.js",
+    "static/css/main.c62e9f5a.chunk.css",
+    "static/js/main.ad03fab0.chunk.js"
+  ]
+}
